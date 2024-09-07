@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Raleway, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: black;
+  background-color: #FAF9F6;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-roam-white {
+  background-color: #FAF9F6;
+}
+
+.bg-roam-yellow {
+  background-color: #FFBF46;
+}
+
+.border-roam-yellow {
+  border-color: #FFBF46;
+}
+
+.border-roam-green {
+  border-color: #2BA84A;
+}
+
+.bg-roam-green {
+  background-color: #8ACB88;
+}
+
+.text-roam-green {
+  color: #2BA84A;
+}
+.border-roam-green {
+  border-color: #2BA84A;
+}
+
+.bg-roam-dark-green {
+  background-color: #648381;
+}
+
+.text-roam-darker-green {
+  color: #648381;
+}
+
+#home {
+  height: calc(100vh - 80px);
+}
+
+.login-btn {
+}
+
+.login-btn:hover {
+  background-color: #FFBF46;
+}

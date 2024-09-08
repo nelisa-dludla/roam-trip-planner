@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  font-family: Raleway, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Outfit, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: black;
-  background-color: #FAF9F6;
+  background-color: #F2F2F2;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -19,29 +19,52 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Accent Colors */
+
 .bg-roam-white {
-  background-color: #FAF9F6;
+  background-color: #F2F2F2;
 }
 
-.bg-roam-yellow {
-  background-color: #FFBF46;
-}
-
-.border-roam-yellow {
-  border-color: #FFBF46;
-}
-
-.border-roam-green {
-  border-color: #2BA84A;
+.bg-roam-blue {
+  background-color: #97C8EB;
 }
 
 .bg-roam-green {
   background-color: #8ACB88;
 }
-
-.text-roam-green {
-  color: #2BA84A;
+.bg-roam-pink {
+  background-color: #FBACBE;
 }
+.bg-roam-purple {
+  background-color: #E3DAFF;
+}
+.bg-roam-yellow {
+  background-color: #F4EF88;
+}
+
+/* Style Elements */
+.btn-white {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 9999px;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.btn-white:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn-black {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 9999px;
+  padding: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
 .border-roam-green {
   border-color: #2BA84A;
 }
@@ -50,17 +73,14 @@
   background-color: #648381;
 }
 
+.bg-roam-forest-green {
+  background-color: #2BA84A;
+}
+
 .text-roam-darker-green {
   color: #648381;
 }
 
 #home {
   height: calc(100vh - 80px);
-}
-
-.login-btn {
-}
-
-.login-btn:hover {
-  background-color: #FFBF46;
 }

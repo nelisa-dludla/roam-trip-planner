@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <>
-      <footer className="bg-roam-yellow">
+      <footer className="container mx-auto border-t-2 border-black rounded-t-[50px]">
         {/* Container */}
         <div className="container mx-auto p-10 flex">
           <div className="mr-20">

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const DashboardHome = () => {
   return (
     <>
@@ -5,12 +7,14 @@ const DashboardHome = () => {
         <h3 className="text-3xl font-bold mb-10">Welcome back, Jane!</h3>
 
         <div className="border-b-2 border-gray-300">
-          <button className="btn-white mb-4 mr-4 shadow-lg">
-            Start a New Trip
-          </button>
-          <button className="btn-white mb-4 shadow-lg">
-            View All Trips
-          </button>
+          <Link to="/dashboard/new-trip">
+            <button className="btn-white mb-4 mr-4 shadow-lg">
+              Start a New Trip
+            </button>
+          </Link>
+          <Link to="/dashboard/my-trips">
+            <button className="btn-white mb-4 shadow-lg">View All Trips</button>
+          </Link>
         </div>
 
         {/* Upcoming Trips */}

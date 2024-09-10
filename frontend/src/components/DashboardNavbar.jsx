@@ -12,31 +12,31 @@ const DashboardNavbar = ({ page }) => {
             <li className="p-4 my-2 font-bold text-xl text-white bg-black rounded-full">Home</li>
           ) : (
             <Link to="/dashboard/home">
-              <li className="p-4 my-2 font-bold text-xl hover:border-2 hover:border-2 hover:border-black hover:rounded-full hover:bg-white">Home</li>
+              <li className="p-4 my-2 font-bold text-xl border-2 border-roam-white hover:border-black hover:rounded-full hover:bg-white">Home</li>
             </Link>
           )}
           {page === "my-trips" || page === "trip-view" ? (
             <li className="p-4 my-2 font-bold text-xl text-white bg-black rounded-full">My Trips</li>
           ) : (
             <Link to="/dashboard/my-trips">
-              <li className="p-4 my-2 font-bold text-xl hover:border-2 hover:border-2 hover:border-black hover:rounded-full hover:bg-white">My Trips</li>
+              <li className="p-4 my-2 font-bold text-xl border-2 border-roam-white hover:border-black hover:rounded-full hover:bg-white">My Trips</li>
             </Link>
           )}
           {page === "new-trip" ? (
             <li className="p-4 my-2 font-bold text-xl text-white bg-black rounded-full">New Trip</li>
           ) : (
             <Link to="/dashboard/new-trip">
-              <li className="p-4 my-2 font-bold text-xl hover:border-2 hover:border-2 hover:border-black hover:rounded-full hover:bg-white">New Trip</li>
+              <li className="p-4 my-2 font-bold text-xl border-2 border-roam-white hover:border-black hover:rounded-full hover:bg-white">New Trip</li>
             </Link>
           )}
           {page === "profile" ? (
             <li className="p-4 my-2 font-bold text-xl text-white bg-black rounded-full">Profile</li>
           ) : (
             <Link to="/dashboard/profile">
-              <li className="p-4 my-2 font-bold text-xl hover:border-2 hover:border-2 hover:border-black hover:rounded-full hover:bg-white">Profile</li>
+              <li className="p-4 my-2 font-bold text-xl border-2 border-roam-white hover:border-black hover:rounded-full hover:bg-white">Profile</li>
             </Link>
           )}
-              <li className="p-4 my-2 font-bold text-xl hover:border-2 hover:border-2 hover:border-black hover:rounded-full hover:bg-white">Logout</li>
+              <li className="p-4 my-2 font-bold text-xl border-2 border-roam-white hover:border-black hover:rounded-full hover:bg-white">Logout</li>
         </ul>
       </nav>
     </>

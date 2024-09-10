@@ -25,6 +25,10 @@
   background-color: #F2F2F2;
 }
 
+.border-roam-white {
+  border-color: #F2F2F2;
+}
+
 .bg-roam-blue {
   background-color: #97C8EB;
 }
@@ -49,6 +53,7 @@
   border-radius: 9999px;
   padding: 1rem;
   font-weight: bold;
+  min-width: 7rem;
 }
 
 .btn-white:hover {
@@ -63,22 +68,7 @@
   padding: 1rem;
   font-weight: bold;
   color: white;
-}
-
-.border-roam-green {
-  border-color: #2BA84A;
-}
-
-.bg-roam-dark-green {
-  background-color: #648381;
-}
-
-.bg-roam-forest-green {
-  background-color: #2BA84A;
-}
-
-.text-roam-darker-green {
-  color: #648381;
+  min-width: 7rem;
 }
 
 #home {
